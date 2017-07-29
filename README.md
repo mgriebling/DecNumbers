@@ -2,7 +2,7 @@
 iOS version of decNumber library by Mike Cowlishaw
 ---------------------------------------------------------------------
 
-*Note: Building a iOS library doesn't seem to like the decimal128.c,
+*Note: Building a iOS framework doesn't seem to like the decimal128.c,
 decimal64.c, and decimal32.c files so those have been excluded here.
 You can get them from the source below if you want to try to get them
 to work.*
