@@ -1,5 +1,5 @@
 # DecNumbers
-iOS version of decNumber library by Mike Cowlishaw
+iOS framework version of decNumber library by Mike Cowlishaw
 ---------------------------------------------------------------------
 
 *Note: Building a iOS framework doesn't seem to like the decimal128.c,
