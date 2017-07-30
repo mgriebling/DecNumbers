@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		47242CD31F2CB053009301DC /* DecNumbers.h in Headers */ = {isa = PBXBuildFile; fileRef = 47242CD11F2CB053009301DC /* DecNumbers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47242CF91F2CB5C2009301DC /* decNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 47242CF71F2CB5C2009301DC /* decNumber.m */; };
+		47242CF91F2CB5C2009301DC /* decNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 47242CF71F2CB5C2009301DC /* decNumber.c */; };
 		47242CFA1F2CB5C2009301DC /* decNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 47242CF81F2CB5C2009301DC /* decNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47242CFD1F2CB648009301DC /* decContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 47242CFB1F2CB648009301DC /* decContext.m */; };
+		47242CFD1F2CB648009301DC /* decContext.c in Sources */ = {isa = PBXBuildFile; fileRef = 47242CFB1F2CB648009301DC /* decContext.c */; };
 		47242CFE1F2CB648009301DC /* decContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 47242CFC1F2CB648009301DC /* decContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47242D001F2CB64E009301DC /* decNumberLocal.h in Headers */ = {isa = PBXBuildFile; fileRef = 47242CFF1F2CB64E009301DC /* decNumberLocal.h */; };
 		47242D071F2CBA3B009301DC /* decPacked.c in Sources */ = {isa = PBXBuildFile; fileRef = 47242D011F2CBA3B009301DC /* decPacked.c */; };
@@ -28,9 +28,9 @@
 		47242CCE1F2CB053009301DC /* DecNumbers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DecNumbers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47242CD11F2CB053009301DC /* DecNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecNumbers.h; sourceTree = "<group>"; };
 		47242CD21F2CB053009301DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47242CF71F2CB5C2009301DC /* decNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = decNumber.m; sourceTree = "<group>"; };
+		47242CF71F2CB5C2009301DC /* decNumber.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = decNumber.c; sourceTree = "<group>"; };
 		47242CF81F2CB5C2009301DC /* decNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decNumber.h; sourceTree = "<group>"; };
-		47242CFB1F2CB648009301DC /* decContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = decContext.m; sourceTree = "<group>"; };
+		47242CFB1F2CB648009301DC /* decContext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = decContext.c; sourceTree = "<group>"; };
 		47242CFC1F2CB648009301DC /* decContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decContext.h; sourceTree = "<group>"; };
 		47242CFF1F2CB64E009301DC /* decNumberLocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decNumberLocal.h; sourceTree = "<group>"; };
 		47242D011F2CBA3B009301DC /* decPacked.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = decPacked.c; sourceTree = "<group>"; };
@@ -84,9 +84,9 @@
 				47242D191F2CCB84009301DC /* readme.txt */,
 				47242D171F2CCB73009301DC /* ICU-license.html */,
 				47242D1B1F2CCB94009301DC /* decnumber.pdf */,
-				47242CFB1F2CB648009301DC /* decContext.m */,
+				47242CFB1F2CB648009301DC /* decContext.c */,
 				47242CFC1F2CB648009301DC /* decContext.h */,
-				47242CF71F2CB5C2009301DC /* decNumber.m */,
+				47242CF71F2CB5C2009301DC /* decNumber.c */,
 				47242CF81F2CB5C2009301DC /* decNumber.h */,
 				47242CFF1F2CB64E009301DC /* decNumberLocal.h */,
 				47242D011F2CBA3B009301DC /* decPacked.c */,
@@ -195,10 +195,10 @@
 			files = (
 				47242D0B1F2CBA3B009301DC /* decSingle.c in Sources */,
 				47242D071F2CBA3B009301DC /* decPacked.c in Sources */,
-				47242CFD1F2CB648009301DC /* decContext.m in Sources */,
+				47242CFD1F2CB648009301DC /* decContext.c in Sources */,
 				47242D091F2CBA3B009301DC /* decQuad.c in Sources */,
 				47242D151F2CBBBE009301DC /* decDouble.c in Sources */,
-				47242CF91F2CB5C2009301DC /* decNumber.m in Sources */,
+				47242CF91F2CB5C2009301DC /* decNumber.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
