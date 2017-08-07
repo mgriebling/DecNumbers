@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DecNumbersOSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>DecimalNumber.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>47242CCD1F2CB053009301DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>477BFB5F1F3746D000A3D79E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

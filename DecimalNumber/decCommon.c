@@ -265,7 +265,7 @@ static decFloat * decFinalize(decFloat *df, bcdnum *num,
     if (*umsd==0) {
       for (; umsd+3<ulsd && UBTOUI(umsd)==0;) umsd+=4;
       for (; *umsd==0 && umsd<ulsd;) umsd++;
-      length=ulsd-umsd+1;                    // recalculate
+      length=(uInt)(ulsd-umsd+1);            // recalculate
       }
     drop=MAXI(length-DECPMAX, DECQTINY-num->exponent);
     // drop can now be > digits for bottom-clamp (subnormal) cases
@@ -407,7 +407,7 @@ static decFloat * decFinalize(decFloat *df, bcdnum *num,
           } // bump needed
         } // inexact rounding
 
-      length=ulsd-umsd+1;               // recalculate (may be <DECPMAX)
+      length=(uInt)(ulsd-umsd+1);               // recalculate (may be <DECPMAX)
       } // need round (drop>0)
 
     // The coefficient will now fit and has final length unless overflow
@@ -468,7 +468,7 @@ static decFloat * decFinalize(decFloat *df, bcdnum *num,
           ulsd=tlsd;
           }
         } // fold-down?
-      length=ulsd-umsd+1;               // recalculate length
+      length=(uInt)(ulsd-umsd+1);               // recalculate length
       } // high-end edge case
     } // finite number
 

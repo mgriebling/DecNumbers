@@ -161,7 +161,7 @@ decNumber * decPackedToNumber(const uByte *bcd, Int length,
 
   // skip leading zero bytes [final byte is always non-zero, due to sign]
   for (first=bcd; *first==0;) first++;
-  digits=(last-first)*2+1;              // calculate digits ..
+  digits=(Int)((last-first)*2+1);       // calculate digits ..
   if ((*first & 0xf0)==0) digits--;     // adjust for leading zero nibble
   if (digits!=0) dn->digits=digits;     // count of actual digits [if 0,
                                         // leave as 1]
